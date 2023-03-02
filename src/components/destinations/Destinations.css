@@ -1,0 +1,41 @@
+.destinations{
+  width: 100%;
+  text-align: center;
+  padding: 4rem 0;
+}
+.destinations h1{
+  padding: 1rem;
+}
+.destinations .img-container{
+  --gap: 1rem;
+  --num-cols: 5;
+  --row-height: 300px;
+
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols),1fr);
+  margin: auto;
+  padding: 1rem 0;
+  gap: var(--gap);
+}
+.img-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-grid-colom-3{
+  grid-column: span 3;
+}
+.img-grid-row-2{
+  grid-row: span 3;
+}
+
+@media screen and (max-width:948px) {
+  .img-container{
+    --num-cols: 2;
+    --row-height: 200px;
+    --gap: 0.5rem;
+  }
+  .img-grid-colom-3{
+    grid-column: span 2;
+  }
+}

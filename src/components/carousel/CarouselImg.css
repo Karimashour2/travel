@@ -1,0 +1,17 @@
+.carousel{
+  width: 80%;
+  margin: 2rem auto;
+}
+.carousel img{
+  height: 600px;
+  object-fit: cover;
+}
+
+@media screen and (max-width:740px) {
+  .carousel{
+    width: 85%;
+  }
+  .carousel img{
+    height: 450px;
+  }
+}
