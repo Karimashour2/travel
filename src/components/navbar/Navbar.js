@@ -22,11 +22,11 @@ const Navbar = () => {
         <h2>Travel</h2>
       </div>
       <ul className='navbar-menu'>
-        <li>Home</li>
-        <li>Distinations</li>
-        <li>Travel</li>
-        <li>Book</li>
-        <li>Views</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#dest">Destinations</a></li>
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#book">Book</a></li>
+        <li><a href="#views">Views</a></li>
       </ul>
       <div className='navbar-icons'>
         <BiSearch style={{marginRight: '1.5rem'}}/>
@@ -37,11 +37,11 @@ const Navbar = () => {
       </div>
       <div className={nav? "mobile-menu active-nav" : "mobile-menu"}>
         <ul className="mobile-navbar">
-        <li>Home</li>
-        <li>Distinations</li>
-        <li>Travel</li>
-        <li>Book</li>
-        <li>Views</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#dest">Destinations</a></li>
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#book">Book</a></li>
+        <li><a href="#views">Views</a></li>
         </ul>
         <div className="mobile-menu-btn">
           <div className="menu-icons">

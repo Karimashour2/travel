@@ -18,7 +18,7 @@ const SelectsImg = () => {
   ];
 
   return (
-    <div className="container">
+    <div id="views" className="container">
       <div className="selects-img">
         {imgs.map((img, i) => (
           <div className="img" key={i}>

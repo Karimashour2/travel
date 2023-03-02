@@ -9,7 +9,7 @@ import maldives3 from '../../assets/maldives3.jpg';
 
 const Destinations = () => {
   return (
-    <div className='destinations'>
+    <div id='dest' className='destinations'>
       <div className="container">
         <h1>All-Inclusive Resorts</h1>
         <p>On the Caribbean's Best Beaches</p>
