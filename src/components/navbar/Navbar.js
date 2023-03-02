@@ -35,13 +35,14 @@ const Navbar = () => {
       <div className="hamburger" onClick={handleNav}>
         {nav?<AiOutlineClose/> : <HiOutlineMenuAlt4/>}
       </div>
+
       <div className={nav? "mobile-menu active-nav" : "mobile-menu"}>
         <ul className="mobile-navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#dest">Destinations</a></li>
-        <li><a href="#travel">Travel</a></li>
-        <li><a href="#book">Book</a></li>
-        <li><a href="#views">Views</a></li>
+        <li onClick={()=> setNav(false)}><a href="#">Home</a></li>
+        <li onClick={()=> setNav(false)}><a href="#dest">Destinations</a></li>
+        <li onClick={()=> setNav(false)}><a href="#travel">Travel</a></li>
+        <li onClick={()=> setNav(false)}><a href="#book">Book</a></li>
+        <li onClick={()=> setNav(false)}><a href="#views">Views</a></li>
         </ul>
         <div className="mobile-menu-btn">
           <div className="menu-icons">
