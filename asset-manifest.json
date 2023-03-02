@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/travel/static/css/main.643e4813.css",
-    "main.js": "/travel/static/js/main.49a05554.js",
+    "main.js": "/travel/static/js/main.fdf17ba9.js",
     "static/media/maldivesVideo.mp4": "/travel/static/media/maldivesVideo.4b1c6a6fb879322d6587.mp4",
     "static/media/keywest.jpg": "/travel/static/media/keywest.1e30514942c6f50bea09.jpg",
     "static/media/maldives2.jpg": "/travel/static/media/maldives2.ee088b6ef17100d7f85f.jpg",
@@ -13,10 +13,10 @@
     "static/media/gold.png": "/travel/static/media/gold.42f7d8f40c346adfe3a7.png",
     "index.html": "/travel/index.html",
     "main.643e4813.css.map": "/travel/static/css/main.643e4813.css.map",
-    "main.49a05554.js.map": "/travel/static/js/main.49a05554.js.map"
+    "main.fdf17ba9.js.map": "/travel/static/js/main.fdf17ba9.js.map"
   },
   "entrypoints": [
     "static/css/main.643e4813.css",
-    "static/js/main.49a05554.js"
+    "static/js/main.fdf17ba9.js"
   ]
 }
